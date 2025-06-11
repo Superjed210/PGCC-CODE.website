@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    background-image: url('../images/Jet Brains imgBlue.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proj{
+    background-color: #19191c;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19191c;
+    padding: 15px 30px;
+    color: white;
+    font-family: 'Roboto Thin', sans-serif;
+    border-bottom: 1px Solid grey;
+    position: fixed; top: 0; width: 100%;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links a {
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 100;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-underline: grey;
+}
